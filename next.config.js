@@ -6,9 +6,12 @@ const nextConfig = {};
 module.exports = nextConfig;
 
 module.exports = {
+<<<<<<< HEAD
   eslint: {
     ignoreDuringBuilds: true,
   },
+=======
+>>>>>>> 40a720ac54bc78108a42c4129818bd369d4fd4fe
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>
